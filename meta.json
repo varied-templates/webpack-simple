@@ -3,26 +3,26 @@
     "name": {
       "type": "string",
       "required": true,
-      "label": "Project name"
+      "label": "Project name（项目名称）"
     },
     "description": {
       "type": "string",
       "required": true,
-      "label": "Project description",
+      "label": "Project description（项目描述）",
       "default": "A Vue.js project"
     },
     "author": {
       "type": "string",
-      "label": "Author"
+      "label": "Author（作者）"
     },
     "license": {
       "type": "string",
-      "label": "License",
+      "label": "License（许可证）",
       "default": "MIT"
     },
     "less": {
        "type": "confirm",
-       "message": "Use less?",
+       "message": "Use less（使用less）?",
        "default": false
     }
   },
